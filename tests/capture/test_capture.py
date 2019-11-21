@@ -69,3 +69,5 @@ def test_capture_gets_encryption_and_override_perfs():
         assert set(actual_parameter_options) == set(expected_results)
         assert len(actual_parameter_options) == len(expected_results)
 
+#def test_capture_tshark_output_dump():
+
